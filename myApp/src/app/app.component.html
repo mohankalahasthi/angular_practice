@@ -1,0 +1,27 @@
+<h1>{{myName}}</h1>
+
+<table>
+
+  <tr>
+    <td>Id</td>
+    <td>Name</td>
+    <td>School</td>
+    <td>Grade</td>
+  </tr>
+  <tr  *ngFor="let detail of studentDetails">
+    <td>
+      {{detail.id}}
+    </td>
+    <td>
+      {{detail.name}}
+    </td>
+    <td>
+      {{detail.class}}
+    </td>
+    <td>
+      {{detail.annualGrade}}
+    </td>
+  </tr>
+</table>
+
+<h1>Failed Student : {{failedStudent}}</h1>
