@@ -7,8 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Layout1Component implements OnInit {
 
-  constructor() { }
+  
 
+  constructor() { }
+   cards=[
+     {
+     id:1,
+     title:"Flight Booking",
+     desc:" the iterator function once for each item in obj collection, which can be either an object or an array. The iterator function is invoked with"
+   },
+  {
+    id:2,
+     title:"Flight Booking",
+     desc:" the iterator function once for each item in obj collection, which can be either an object or an array. The iterator function is invoked with"
+  },{
+    id:3,
+     title:"Flight Booking",
+     desc:" the iterator function once for each item in obj collection, which can be either an object or an array. The iterator function is invoked with"
+  }]
   ngOnInit() {
   }
 
