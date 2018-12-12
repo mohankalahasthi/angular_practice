@@ -1,8 +1,7 @@
-<div class="lay1" >
-  <div class="card" *ngFor="let item of cards">
-    <img src="" alt="">
+<div class="lay1" fxLayout="row" fxLayoutAlign="space-around center">
+  <div class="card" *ngFor="let item of cards" fxFlex="33.33">
+    <img [src]="item.img" alt="">
     <h3>{{item.title}}</h3>
     <p>{{item.desc}} </p>
   </div>
 </div>
-<!-- style="display:flex;    justify-content: space-around;" -->
